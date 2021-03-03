@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  font-family: "PT Sans", sans-serif;
+}
+
+.home,
+.products,
+.contact-us,
+.travel,
+.about-us {
+  height: 15vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  color: #fff;
+  background-color: #fff;
+  text-align: center;
+}
+
+.products {
+  background-image: url("/images/img-1.jpg");
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.about-us {
+  background-image: url("/images/background3.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 80px;
+}
+
+.travel {
+  background-image: url("/images/background9.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 80px;
+}
+
+.contactus-container,
+.travel-container,
+.aboutus-container {
+  background: #fff;
+}
+.contact-us {
+  background-image: url("/images/background12.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.contactus-info {
+  display: flex;
+  font-size: 16px;
+  justify-content: space-between;
+  width: 800px;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  background-color: #fff;
+  padding: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.contactus-details {
+  text-align: center;
+  font-size: 20px;
+  list-style: none;
+  width: 100%;
+  padding: 10px;
+  background-color: #fff;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.aboutus-info,
+.travel-info {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: justify;
+  font-size: 18px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.aboutus-info > p,
+.travel-info > p {
+  display: flex;
+  flex-direction: row;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: justify;
+}
+
+.aboutus-offer {
+  padding: 40px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: left;
+}
+.cash {
+  color: blue;
+  align-items: center;
+  text-align: left;
+  font-size: 20px;
+}
+
+.small-prints {
+  text-align: center;
+  font-size: 12px;
+}
+
+textarea,
+input {
+  display: block;
+  box-sizing: border-box;
+  width: 50%;
+  border-radius: 4px;
+  border: 1px solid #242424;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.error {
+  color: #bf1650;
+  text-align: center;
+  font-size: 12px;
+}
+
+input[type="submit"],
+.button {
+  background: blue;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  margin-top: 20px;
+  padding: 20px;
+  font-size: 16px;
+  letter-spacing: 10px;
+  display: block;
+  appearance: none;
+  border-radius: 4px;
+  width: 50%;
+  font-weight: lighter;
+  font-weight: 100;
+  letter-spacing: 10px;
+}
+
+.g-recaptcha {
+  display: inline-block;
+  margin-top: 20px;
+}
