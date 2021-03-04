@@ -19,7 +19,7 @@ function AboutUs() {
           <div class="row">
             <div class="column">
               <div>
-                <img src={del} height={200} width={500}></img>
+                <img src={del} height={200} width={500} alt="dellogo"></img>
               </div>
             </div>
             <div class="column">

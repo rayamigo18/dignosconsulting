@@ -1,10 +1,6 @@
 import React from "react";
-//import "../../App.css";
 import "../Cards.css";
-import { Link } from "react-router-dom";
-import Cards from "../Cards";
 import CardItem from "../CardItem";
-import Footer from "../Footer";
 
 function Products(props) {
   console.log(props);
@@ -56,7 +52,6 @@ function Products(props) {
               path="/products"
             />
           </ul>
-          
         </div>
       </div>
     </div>

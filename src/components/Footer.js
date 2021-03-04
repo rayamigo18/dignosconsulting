@@ -1,6 +1,5 @@
 import React from "react";
 import "./Footer.css";
-import { Button } from "./Button";
 import { Link } from "react-router-dom";
 import logo from "../images/logo.ico";
 
@@ -32,7 +31,7 @@ function Footer() {
           <Link to="/" className="social-logo">
             DEL Finance
             <i class="img">
-              <img src={logo} width="120" height="60"></img>
+              <img src={logo} width="120" height="60" alt="dellogo"></img>
             </i>
           </Link>
         </div>

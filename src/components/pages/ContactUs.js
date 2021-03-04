@@ -7,26 +7,13 @@ import Footer from "../Footer";
 import emailjs from "emailjs-com";
 
 let recaptchaInstance;
-const executeCaptcha = (e) => {
-  e.preventDefault();
-  recaptchaInstance.execute();
-};
 
 function ContactUs() {
   const { register, handleSubmit, errors } = useForm();
   const onSubmit = (data) => {
     console.log(data);
   }; // your form submit function which will invoke after successful validation
-
   const [agree, setAgree] = useState(false);
-
-  const checkboxHandler = () => {
-    // if agree === true, it will be set to false
-    // if agree === false, it will be set to true
-    setAgree(!agree);
-    // Don't miss the exclamation mark
-  };
-
   const resetRecaptcha = () => {
     alert("Thank you for emailing DEL Finance!");
     recaptchaInstance.reset();
@@ -105,7 +92,7 @@ function ContactUs() {
             placeholder="Full Name"
           />
           {errors.name && <div className="error">{errors.name.message}</div>}
-         
+
           <input
             ref={register({
               required: {

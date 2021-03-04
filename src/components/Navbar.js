@@ -36,7 +36,7 @@ function Navbar() {
           >
             <span>DEL Finance</span>
             <i class="img">
-              <img src={logo} width="120" height="60"></img>
+              <img src={logo} width="120" height="60" alt="dellogo"></img>
             </i>
           </Link>
           <div className="menu-icon" onClick={handleClick}>
