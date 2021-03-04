@@ -13,7 +13,6 @@ function ContactUs() {
   const onSubmit = (data) => {
     console.log(data);
   }; // your form submit function which will invoke after successful validation
-  const [agree, setAgree] = useState(false);
   const resetRecaptcha = () => {
     alert("Thank you for emailing DEL Finance!");
     recaptchaInstance.reset();
