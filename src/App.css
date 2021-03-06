@@ -4,7 +4,8 @@
   font-family: "PT Sans", sans-serif;
 }
 html {
-  overflow-x: hidden;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
 }
 
 .home,
