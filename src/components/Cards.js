@@ -19,25 +19,21 @@ function Cards() {
               src="images/cash.png"
               text="C- Competitive Rates"
               label="C"
-              path="/travel"
             />
             <CardItem
               src="images/approval.png"
               text="A - Approval in 60 Minutes"
               label="A"
-              path="/products"
             />
             <CardItem
               src="images/time.png"
               text="S - Same day disbursement"
               label="S"
-              path="/products"
             />
             <CardItem
               src="images/hasslefree.png"
               text="H - Hassle free application"
               label="H"
-              path="/products"
             />
           </ul>
         </div>
