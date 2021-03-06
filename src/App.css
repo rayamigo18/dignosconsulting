@@ -7,7 +7,7 @@
 .home,
 .products,
 .contact-us,
-.travel,
+.terms,
 .about-us {
   height: 15vh;
   align-items: center;
@@ -36,7 +36,7 @@
   font-size: 80px;
 }
 
-.travel {
+.terms {
   background-image: url("/images/background9.jpg");
   background-position: center;
   background-size: cover;
@@ -64,7 +64,6 @@
   display: flex;
   font-size: 16px;
   justify-content: space-between;
-  width: 800px;
   text-align: center;
   align-items: center;
   margin: auto;
@@ -86,16 +85,15 @@
 }
 
 .aboutus-info,
-.travel-info {
+.terms-info {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   text-align: justify;
   font-size: 18px;
-  margin-left: 100px;
-  margin-right: 100px;
+  padding: 10px;
 }
 .aboutus-info > p,
-.travel-info > p {
+.terms-info > p {
   display: flex;
   flex-direction: row;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -108,6 +106,12 @@
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   text-align: left;
+  align-items: center;
+}
+
+.column {
+  margin-left: auto;
+  margin-right: auto;
 }
 .cash {
   color: blue;

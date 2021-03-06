@@ -18,7 +18,7 @@ function AboutUs() {
         <div class="aboutus-info">
           <div class="row">
             <div class="column">
-              <div>
+              <div class="dellogo">
                 <img src={del} height={200} width={500} alt="dellogo"></img>
               </div>
             </div>

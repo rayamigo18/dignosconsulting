@@ -13,16 +13,16 @@ function Footer() {
             <Link to="/">Home</Link>
             <Link to="/about-us">About Us</Link>
             <Link to="/products">Product Offerings</Link>
-            <Link to="/travel">Terms and Privacy</Link>
+            <Link to="/terms">Terms and Privacy</Link>
           </div>
         </div>
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
             <h2>Social Media</h2>
-            <Link to="/">Instagram</Link>
-            <Link to="https://www.facebook.com/delending">Facebook</Link>
-            <Link to="/">Youtube</Link>
-            <Link to="/">Twitter</Link>
+            <a href="https://www.instagram.com/">Instagram</a>
+            <a href="https://www.facebook.com/delending">Facebook</a>
+            <a href="https://www.youtube.com/">Youtube</a>
+            <a href="https://twitter.com/home">Twitter</a>
           </div>
         </div>
       </div>
@@ -35,49 +35,20 @@ function Footer() {
             </i>
           </Link>
         </div>
-        <small class="website-rights">DEL Finance © 2021</small>
+        <small class="website-rights">© 2021</small>
         <div class="social-icons">
-          <Link
-            class="social-icon-link facebook"
-            to="https://www.facebook.com/delending"
-
-            target="_blank"
-            aria-label="Facebook"
-          >
-            <i class="fab fa-facebook-f" />
-          </Link>
-          <Link
-            class="social-icon-link instagram"
-            to="/"
-            target="_blank"
-            aria-label="Instagram"
-          >
-            <i class="fab fa-instagram" />
-          </Link>
-          <Link
-            class="social-icon-link youtube"
-            to="/"
-            target="_blank"
-            aria-label="Youtube"
-          >
-            <i class="fab fa-youtube" />
-          </Link>
-          <Link
-            class="social-icon-link twitter"
-            to="/"
-            target="_blank"
-            aria-label="Twitter"
-          >
-            <i class="fab fa-twitter" />
-          </Link>
-          <Link
-            class="social-icon-link twitter"
-            to="/"
-            target="_blank"
-            aria-label="LinkedIn"
-          >
-            <i class="fab fa-linkedin" />
-          </Link>
+          <div class="social-icon-link facebook" aria-label="Facebook">
+            <a href="https://www.facebook.com/delending"><i class="fab fa-facebook-f"></i></a>
+          </div>
+          <div class="social-icon-link instagram" aria-label="Instagram">
+            <a href="https://www.instagram.com/"><i class="fab fa-instagram" /></a>
+          </div>
+          <div class="social-icon-link youtube" aria-label="Facebook">
+            <a href="https://www.youtube.com/"><i class="fab fa-youtube" /></a>
+          </div>
+          <div class="social-icon-link twitter" aria-label="Facebook">
+            <a href="https://www.youtube.com/"><i class="fab fa-twitter" /></a>
+          </div>
         </div>
       </div>
     </div>

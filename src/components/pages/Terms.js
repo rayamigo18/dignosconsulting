@@ -1,11 +1,11 @@
 import React from "react";
 import "../../App.css";
 
-export default function Travel() {
+export default function Terms() {
   return (
-    <div className="travel-container">
-      <h1 className="travel">Terms and Privacy</h1>
-      <div className="travel-info">
+    <div className="terms-container">
+      <h1 className="terms">Terms and Privacy</h1>
+      <div className="terms-info">
         <h2>Privacy</h2>
         <p>
           We abide by the Australian Privacy Principles (APPs) and we only

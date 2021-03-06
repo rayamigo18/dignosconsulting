@@ -73,7 +73,7 @@ function Navbar() {
                 className="nav-links-mobile"
                 onClick={closeMobileMenu}
               >
-                About US
+                About Us
               </Link>
             </li>
           </ul>
