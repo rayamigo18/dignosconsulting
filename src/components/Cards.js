@@ -8,7 +8,7 @@ function Cards() {
     <div className="cards">
       <h1>
         Reach out if you need tuition fees for your school, funds for your short term loans, money for VISA application or you have the
-        business idea but lacks capital? At DEL Finance, our team is dedicated
+        business idea but lack capital? At DEL Finance, our team is dedicated
         at providing you the best loan. We
         offer CASH:
       </h1>

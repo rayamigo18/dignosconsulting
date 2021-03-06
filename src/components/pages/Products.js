@@ -35,13 +35,13 @@ function Products(props) {
           <ul className="cards__items">
             <CardItem
               src="images/businessloan.png"
-              text="Got that business idea but lacks the capital? We can help you fund that dream and turn it into a reality."
+              text="Got that business idea but lack the capital? We can help you fund that dream and turn it into a reality."
               label="Working Capital"
               path="/products"
             />
             <CardItem
               src="images/coins.png"
-              text="Short for funds and need short term loan now?"
+              text="Short of funds and need short term loan now?"
               label="Short Term Loan"
               path="/products"
             />
