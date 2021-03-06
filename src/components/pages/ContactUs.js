@@ -44,7 +44,7 @@ function ContactUs() {
   return (
     <div className="contactus-container">
       <div className="contact-us">
-        <h1>Contact Information</h1>
+        Contact Us
       </div>
       <div className="contactus-info">
         <div>
