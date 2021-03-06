@@ -44,7 +44,6 @@ body {
 }
 
 .terms {
-  height: 10vh;
   background-image: url("/images/background9.jpg");
   background-position: center;
   background-size: cover;
@@ -95,7 +94,6 @@ body {
 }
 
 .aboutus-info,
-.contactus-info,
 .terms-info {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
