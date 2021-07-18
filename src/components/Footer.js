@@ -14,6 +14,7 @@ function Footer() {
             <Link to="/about-us">About Us</Link>
             <Link to="/products">Product Offerings</Link>
             <Link to="/terms">Terms and Privacy</Link>
+            <Link to="/pds">Product Disclosure Statement</Link>
           </div>
         </div>
         <div className="footer-link-wrapper">

@@ -8,11 +8,10 @@ function AboutUs() {
       <h1 className="about-us">About Us</h1>
       <div className="aboutus-info">
         <p>
-          DEL Finance is a private lender aimed at providing no frills, fast
-          cash and quick application for personal or business purposes at a
-          competitive rate. We help everyday Aussies with their emergency and
-          out of nowhere expenses by providing short term relief and flexible
-          payments.
+        Dignos Equity Lending Pty Ltd Trading as Del Finance (‘We’) are a private lender aimed at
+providing no frills, fast cash and quick application for personal or business purposes at a
+competitive rate. We help everyday Aussies with their emergency and out of nowhere expenses
+by providing short term relief and flexible payments.
         </p>
         <p>Our team is dedicated in helping you find the loans. We offer:</p>
         <div class="aboutus-info">

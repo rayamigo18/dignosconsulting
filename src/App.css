@@ -43,7 +43,8 @@ body {
   align-items: center;
 }
 
-.terms {
+.terms,
+.pds {
   background-image: url("/images/background9.jpg");
   background-position: center;
   background-size: cover;
@@ -56,6 +57,7 @@ body {
 
 .contactus-container,
 .terms-container,
+.pds-container
 .aboutus-container {
   background: #fff;
 }
@@ -102,7 +104,8 @@ body {
   padding: 10px;
 }
 .aboutus-info > p,
-.terms-info > p {
+.terms-info > p,
+.pds-info > p {
   display: flex;
   flex-direction: row;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -123,6 +126,10 @@ body {
   align-items: center;
   text-align: left;
   font-size: 20px;
+}
+
+.pds-info > h3 {
+  color: rgb(38, 0, 255);
 }
 
 .small-prints {
