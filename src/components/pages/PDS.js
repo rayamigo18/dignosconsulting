@@ -56,7 +56,7 @@ return (
         <h2>Our Product</h2>
         <h3>NON NCCP REGULATED LOANS</h3>
         <p>
-        We only offer business or non - consumer loans.This means that consumer protection under the NCCP Act 2009 may not apply to you
+        We only offer business or non - consumer loans.This means that consumer protection under the <span class="italic">&nbsp;NCCP Act 2009&nbsp;</span> may not apply to you
         if you sign a contract with us.
         </p>
         <p>Other protection may still apply arising from our obligations upon signing your contract.
