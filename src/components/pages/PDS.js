@@ -61,10 +61,9 @@ return (
         <h2>Our Product</h2>
         <h3>NON NCCP REGULATED LOANS</h3>
         <p>
-        We only offer business or non-consumer loans. This means that consumer protection
-
-under the NCCP Act 2009 may not apply to you if you sign a contract with us. Other
-protection may still apply arising from our obligations upon signing your contract.
+        We only offer business or non-consumer loans. This means that consumer protection under the <i>&nbsp;NCCP&nbsp;Act&nbsp;2009&nbsp;&nbsp;</i> may not apply to you if you sign a contract with us. 
+        </p>
+        <p>Other protection may still apply arising from our obligations upon signing your contract.
         </p>
         <br></br>
         <h3>INTEREST</h3>
@@ -134,7 +133,7 @@ complaints arising from the services provided by these external vendors.
         <p>
         DEL Finance will serve a notice before it can exercise any of its rights on the default.
 The default notice will be in writing specifying the default and state that DEL Finance
-will exercise its rights under the Agreement unless the default is remedied within 24
+will exercise its rights under the Agreement unless the default is remedied within 14
 days.
         </p>  
      

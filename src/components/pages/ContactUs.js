@@ -52,13 +52,13 @@ function ContactUs() {
         </div>
         <div>
           <i class="fas fa-phone"></i>
-          <a href="tel:+61466906189"> 0466906189</a>
+          <a href="tel:+61456753435"> 0456753435</a>
         </div>
         <div>
           <i class="fas fa-envelope"></i>
-          <a href="mailto:enquiries@delfinance.com.au">
+          <a href="mailto:customersupport@delfinance.com.au">
             {" "}
-            enquiries@delfinance.com.au
+            customersupport@delfinance.com.au
           </a>
         </div>
       </div>
