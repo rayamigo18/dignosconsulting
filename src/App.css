@@ -104,10 +104,16 @@ body {
   padding: 10px;
 }
 .aboutus-info > p,
-.terms-info > p,
-.pds-info > p {
+.terms-info > p {
   display: flex;
   flex-direction: row;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: left;
+}
+
+.pds-info > p {
+  display: flex;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   text-align: left;
