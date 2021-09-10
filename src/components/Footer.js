@@ -13,7 +13,9 @@ function Footer() {
             <Link to="/">Home</Link>
             <Link to="/about-us">About Us</Link>
             <Link to="/products">Product Offerings</Link>
-            <Link to="/terms">Terms and Privacy</Link>
+            <Link to="/application">Loan Application Form</Link>
+            <Link to="/privacy">Privacy Policy</Link>
+            <Link to="/terms">Terms and Conditions</Link>
             <Link to="/pds">Product Disclosure Statement</Link>
           </div>
         </div>

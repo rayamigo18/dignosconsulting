@@ -44,7 +44,9 @@ body {
 }
 
 .terms,
-.pds {
+.privacy,
+.pds,
+.application {
   background-image: url("/images/background9.jpg");
   background-position: center;
   background-size: cover;
@@ -57,10 +59,12 @@ body {
 
 .contactus-container,
 .terms-container,
+.privacy-container,
 .pds-container
 .aboutus-container {
   background: #fff;
 }
+
 .contact-us {
   background-image: url("/images/background12.jpeg");
   background-position: center;
@@ -96,7 +100,8 @@ body {
 }
 
 .aboutus-info,
-.terms-info {
+.terms-info,
+.privacy-info {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   text-align: justify;
@@ -104,12 +109,13 @@ body {
   padding: 10px;
 }
 .aboutus-info > p,
-.terms-info > p {
-  display: flex;
+.privacy-info > p,
+.terms-info > p, span {
   flex-direction: row;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   text-align: left;
+  font-style: normal;
 }
 
 .pds-info > p {

@@ -32,7 +32,7 @@ function createData(fees, schedule, description) {
 }
 
 const rows = [
-  createData('$100', 'Upfront', 'Establishment Fee'),
+  createData('$100 - $150', 'Upfront', 'Establishment Fee'),
   createData('$50', 'Where applicable', 'Early Termination Fee'),
   createData('$15', 'Where applicable','Missed payment'),
   createData('$10', 'Where applicable', 'Default fee. Per month until the loan is paid')
