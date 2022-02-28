@@ -24,7 +24,7 @@ by providing short term relief and flexible payments.
             <div class="column">
               <div class="aboutus-offer">
                 <div>
-                  <strong class="cash">C - </strong> Competitve Rates
+                  <strong class="cash">C - </strong> Competitive Rates
                 </div>
                 <div>
                   <strong class="cash">A - </strong> Approval in 60 minutes*
@@ -38,7 +38,7 @@ by providing short term relief and flexible payments.
               </div>
             </div>
             <div class="small-prints">
-              *Once we acknowledged receipts of your application, we will
+              *Once we acknowledge receipts of your application, we will
               process on the same day and your approval will take place within
               60 minutes. Fund disbursement is same day upon signing of
               contract.
