@@ -6,51 +6,42 @@ function Products(props) {
   console.log(props);
   return (
     <div className="cards">
-      <h1>
-        We have years of experience helping clients achieve their dreams while
-        meeting their financial goals!
+      <h1> Our Team
       </h1>
+      <h2>  We are a team of true professionals with specialisations ranging from legal, education, healthcare, business and Information Technology. "Dignos" in spanish means trustworthy and reliable. Guided by these values, we ensure all candidates are provided with the highest standard of service.</h2>
       <div className="cards__container">
         <div className="cards__wrapper">
           <ul className="cards__items">
             <CardItem
-              src="images/renthouse2.png"
-              text="Need to move soon but still need that fund for the bond?"
-              label="Rental Bond"
+              src="images/ama.png"
+              text="Amabelle is a qualified Education Agent Counsellor (QEAC #11621). She has vast experience enabling international students in getting a quality educational outcome in Australia." 
+              label="Amabelle Dormer - Education Agent Counsellor"
               path="/products"
             />
             <CardItem
-              src="images/school.jpeg"
-              text="School is less cool if you don’t have that tool. We can help you fund that laptop or computing device you require to get your degree."
-              label="School Equipment"
+              src="images/mimi.png"
+              text="An Educator by background. May had 10 years of experience on adult education and has designed curriculum for higher educations 
+              and assisted Registered Training Organisations (RTO) to develop Training Plans. May also has a legal background and currently works as a legal adviser for a not-for-profit organisations."
+              label="May Frances Raguine - Certified Trainer and Assessor"
               path="/products"
             />
-            <CardItem
-              src="images/visa.png"
-              text="Wanting to apply for temporary or permanent VISA?"
-              label="VISA Application Fees"
-              path="/products"
-            />
+   
           </ul>
-          <ul className="cards__items">
+          <ul className="cards__items"> 
             <CardItem
-              src="images/businessloan.png"
-              text="Got that business idea but lack the capital? We can help you fund that dream and turn it into a reality."
-              label="Working Capital"
+              src="images/hope.png"
+              text="Hope has a healthcare background and owns her own practice. She provides her knowledge in the healthcare industry."
+              label="Hope Parrocho - Practice Manager"
               path="/products"
             />
             <CardItem
-              src="images/coins.png"
-              text="Short of funds and need short term loan now?"
-              label="Short Term Loan"
+              src="images/lorenz.png"
+              text="Dale represents Dignos Consulting in the Philippines. He has a background in Business and provides his business acumen in promoting Dignos Consulting and its services."
+              label="Dale Magtulis - Marketing Manager"
               path="/products"
             />
-            <CardItem
-              src="images/tuitionfees.png"
-              text="Found the right course for you but short of money?"
-              label="School Tuition Fees"
-              path="/products"
-            />
+            
+            
           </ul>
         </div>
       </div>

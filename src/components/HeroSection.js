@@ -6,15 +6,15 @@ import "./HeroSection.css";
 function HeroSection() {
   return (
     <div className="hero-container">
-      <h1>Imagine what you can achieve</h1>
-      <p>Without the financial stress</p>
+      <h1>Studying in Australia</h1>
+      <p></p>
       <div className="hero-btns">
         <Button
           className="btns"
           buttonStyle="btn--outline"
           buttonSize="btn--large"
         >
-          Let us show you how
+          Learn more
         </Button>
       </div>
     </div>

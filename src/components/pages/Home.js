@@ -10,8 +10,8 @@ function Home() {
     <>
       <HeroSection />
       <Cards />
-      <Products />
       <AboutUs />
+      <Products />
       <ContactUs />
     </>
   );

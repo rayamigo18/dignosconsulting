@@ -34,11 +34,13 @@ body {
 }
 
 .about-us {
-  background-image: url("/images/background3.jpeg");
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  height: 80px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
+  font-size: 70px;
   text-align: center;
   align-items: center;
 }
@@ -66,7 +68,8 @@ body {
 }
 
 .contact-us {
-  background-image: url("/images/background12.jpeg");
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  height: 80px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -99,7 +102,19 @@ body {
     "Lucida Sans", Arial, sans-serif;
 }
 
-.aboutus-info,
+.aboutus-info {
+  
+  font-size: 18px;
+  
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  background-color: #fff;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+
 .terms-info,
 .privacy-info {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -108,7 +123,7 @@ body {
   font-size: 18px;
   padding: 10px;
 }
-.aboutus-info > p,
+.aboutus-info > 
 .privacy-info > p,
 .terms-info > p, span {
   flex-direction: row;

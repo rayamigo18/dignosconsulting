@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Button } from "./Button";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-import logo from "../images/logo.ico";
+import logo from "../images/dignoslogo.ico";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -29,16 +29,11 @@ function Navbar() {
     <>
       <nav className="navbar">
         <div className="navbar-container">
-          <Link
-            to="/"
-            className="navbar-logo--flexbox"
-            onClick={closeMobileMenu}
-          >
-            <span>DEL Finance</span>
+        <Link to="/" className="navbar-logo--flexbox"> 
             <i class="img">
-              <img src={logo} width="120" height="60" alt="dellogo"></img>
+              <img src={logo} width="200" height="140" alt="dignoslogo"></img>
             </i>
-          </Link>
+        </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
           </div>
@@ -50,20 +45,20 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <Link
+                to="/services"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
+                Services
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
                 to="/contact-us"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
                 Contact Us
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                to="/products"
-                className="nav-links"
-                onClick={closeMobileMenu}
-              >
-                Products Offerings
               </Link>
             </li>
 

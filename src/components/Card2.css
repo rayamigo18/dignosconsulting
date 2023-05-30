@@ -12,7 +12,7 @@
     flex-flow: column;
     align-items: center;
     max-width: 1120px;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
   
   }
@@ -49,7 +49,7 @@
   .cards__item__pic-wrap {
     position: relative;
     width: 100%;
-    padding-top: 67%;
+    padding-top: 100%;
     overflow: hidden;
   }
   
@@ -103,7 +103,7 @@
   
   @media only screen and (min-width: 1200px) {
     .content__blog__container {
-      width: 84%;
+      width: 100%;
     }
   }
   

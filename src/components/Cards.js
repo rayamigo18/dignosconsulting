@@ -6,35 +6,41 @@ import CardItem from "./CardItem";
 function Cards() {
   return (
     <div className="cards">
-      <h1>
-        Reach out if you need tuition fees for your school, funds for your short term loans, money for VISA application or you have the
-        business idea but lack capital? At DEL Finance, our team is dedicated
-        at providing you the best loan. We
-        offer CASH:
-      </h1>
+      <h2>
+      Australia is a world leader in the provision of high quality education in all disciplines. Australian colleges/universities offer international 
+      students with an opportunity to learn and study in a safe and welcoming environment. An Australian education provides international students the 
+      chance to develop academically as well as professionallly, whislt instilling invaluable life skills.
+      </h2>
+      <h2>
+      Dignos Consulting Service will assist you with your application needs and provide you with the confidence and preparedness required to begin your Australian study adventure.
+      </h2>
+      <p>Dignos Consulting services offers the following services: </p>
+
       <div className="cards__container">
         <div className="cards__wrapper">
           <ul className="cards__items">
+            
             <CardItem
-              src="images/cash.png"
-              text="C- Competitive Rates"
-              label="C"
+              src="images/pathway.png"
+              text="Find the right pathway to cater for your specific needs and educational best interest"
+              label="Pathway"
             />
             <CardItem
-              src="images/approval.png"
-              text="A - Approval in 60 Minutes"
-              label="A"
+              src="images/admission.png"
+              text="Provide service to help with your university admission and enrolment"
+              label="Admission"
             />
             <CardItem
-              src="images/time.png"
-              text="S - Same day disbursement"
-              label="S"
+              src="images/visaapplication.png"
+              text="Assist with your student visa application"
+              label="Student Visa"
             />
-            <CardItem
-              src="images/hasslefree.png"
-              text="H - Hassle free application"
-              label="H"
+             <CardItem
+              src="images/graduate.png"
+              text="Provide assistance throughout your college/university life until you meet your desired educational goal in Australia"
+              label="Graduation"
             />
+            
           </ul>
         </div>
       </div>

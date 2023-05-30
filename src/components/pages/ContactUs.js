@@ -58,7 +58,7 @@ function ContactUs() {
           <i class="fas fa-envelope"></i>
           <a href="mailto:customersupport@delfinance.com.au">
             {" "}
-            customersupport@delfinance.com.au
+            info@dignosconsulting.com.au
           </a>
         </div>
       </div>
@@ -109,7 +109,7 @@ function ContactUs() {
           {errors.email && <div className="error">{errors.email.message}</div>}
           <textarea
             name="message"
-            placeholder="Please state Loan Amount and Loan Purpose"
+            placeholder=""
             ref={register({ required: true })}
           />
           <div className="g-recaptcha">
