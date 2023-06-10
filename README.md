@@ -1,4 +1,4 @@
-# DEL
+# DIGNOS Consulting
 
-DEL Website
+Dignos Consulting Website
 
