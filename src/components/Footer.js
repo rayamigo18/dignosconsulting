@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import { Link } from "react-router-dom";
-import logo from "../images/dignoslogo.ico";
+//import logo from "../images/dignoslogo.ico";
 
 function Footer() {
   return (
