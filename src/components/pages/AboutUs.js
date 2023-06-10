@@ -11,14 +11,14 @@ function AboutUs() {
 Dignos Consulting® Education Agency is a registered and licensed education agency that is based in Melbourne, Australia. 
 
 <p></p>
-Dignos Consulting assists international students find the correct educational course pathway that best suits the 
+We assists international students find the correct educational course pathway that best suits the 
 invidual needs. We process admission and enrolments to the right college/university that matches your educational goal 
 as well as prepare orientation programs before, during and at the end of study program in Australia. Dignos can 
 also assist in any travel arrangements you require.
 
 <p></p>  
 
-Our education agency offers the following services; 
+We offer the following services; 
 
 <ul>
   <li>&#8226; assist in processing and admission for students from universities,</li>
