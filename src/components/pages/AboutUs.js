@@ -8,17 +8,17 @@ function AboutUs() {
       <div className="aboutus-info">
         
         
-Dignos Consulting® Education Agency is a registered and licensed education agency that is based in Melbourne, Australia. 
+<h2>Dignos Consulting® Education Agency is a registered and licensed education agency that is based in Melbourne, Australia. </h2>
 
-<p></p>
+<h2>
 We assists international students find the correct educational course pathway that best suits the 
 invidual needs. We process admission and enrolments to the right college/university that matches your educational goal 
 as well as prepare orientation programs before, during and at the end of study program in Australia. Dignos can 
 also assist in any travel arrangements you require.
+</h2>
+ 
 
-<p></p>  
-
-We offer the following services; 
+<h2>We offer the following services; 
 
 <ul>
   <li>&#8226; assist in processing and admission for students from universities,</li>
@@ -42,17 +42,21 @@ We will assist you with the following areas:
   <li>&#8226; Land management, agriculture, fisheries and forestry</li>
   <li>&#8226; Sports and recreation</li>
 </ul>
+</h2>
 
+<h2>
 We know attempting to study abroad can be confusing as there is so much information available either online, in social media, and everywhere in between. 
 That is why Dignos Consulting offers a simplified process to make your transition to studying in Australia as seamless as possible. 
 After contacting us for guidance, you can focus on your next steps towards your educational journey - preparing for study life in Australia.<p></p>
 Our educational agent is bound by the Code of Ethics of the National Code 2018.
-<p></p>
+</h2>
+
+<h2>
 Our main values are and will always be to provide professional, reliable and ethical services of the highest standard to your application.
+</h2>
 
-<p></p>
 
-Our team is dedicated in helping you. So start your study in Australia. Call us!
+<h2>Our team is dedicated in helping you. So start your study in Australia. Call us! </h2>
         
       </div>
     </div>

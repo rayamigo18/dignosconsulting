@@ -2,12 +2,13 @@ import React from "react";
 import "../Cards.css";
 import CardItem from "../CardItem";
 
-function Products(props) {
-  console.log(props);
+function Products() {
+  
   return (
-    <div className="cards">
-      <h1> Our Team
-      </h1>
+    <div className="products-container">
+    <h1 className="products">Our Team</h1>
+    <div className="products-info">
+    
       <h2>  We are a team of true professionals with specialisations ranging from legal, education, healthcare, business and Information Technology. "Dignos" in spanish means trustworthy and reliable. Guided by these values, we ensure all candidates are provided with the highest standard of service.</h2>
       <div className="cards__container">
         <div className="cards__wrapper">
@@ -45,6 +46,7 @@ function Products(props) {
           </ul>
         </div>
       </div>
+    </div>
     </div>
   );
 }

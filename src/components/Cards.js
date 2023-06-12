@@ -12,9 +12,9 @@ function Cards() {
       chance to develop academically as well as professionallly, whislt instilling invaluable life skills.
       </h2>
       <h2>
-      Dignos Consulting Service will assist you with your application needs and provide you with the confidence and preparedness required to begin your Australian study adventure.
+      Dignos Consulting will assist you with your application needs and provide you with the confidence and preparedness required to begin your Australian study adventure.
       </h2>
-      <p>Dignos Consulting services offers the following services: </p>
+      <h2>We offer the following services: </h2>
 
       <div className="cards__container">
         <div className="cards__wrapper">
