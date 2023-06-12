@@ -3,7 +3,7 @@
   background: #fff;
 }
 
-h1,h2,p {
+h1,h2,h3,p {
   text-align: justify;
 }
 
@@ -21,7 +21,6 @@ h1,h2,p {
   position: relative;
   margin: 50px 0 45px;
 }
-
 
 
 .cards__item {
