@@ -15,10 +15,10 @@ h1,h2,h3,p {
 }
 
 .home,
-.products,
+.ourteam,
 .contact-us,
-.about-us,
-.products {
+.about-us
+{
   height: 12vh;
   font-size: 70px;
   color: #fff;
@@ -27,7 +27,7 @@ h1,h2,h3,p {
   align-items: center;
 }
 
-.products {
+.ourteam {
  
   background-position: center;
   background-size: fill;
@@ -39,7 +39,7 @@ h1,h2,h3,p {
 }
 
 .about-us,
-.products {
+.ourteam {
   background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
   height: 80px;
   background-position: center;
@@ -70,7 +70,7 @@ h1,h2,h3,p {
 .privacy-container,
 .pds-container,
 .aboutus-container,
-.products-container {
+.ourteam-container {
   background: #fff;
 }
 
@@ -110,7 +110,7 @@ h1,h2,h3,p {
 }
 
 .aboutus-info,
-.products-info {
+.ourteam-info {
   
   font-size: 18px;
   text-align: center;

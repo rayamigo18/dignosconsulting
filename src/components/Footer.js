@@ -12,16 +12,14 @@ function Footer() {
             <h2>About Us</h2>
             <Link to="/">Home</Link>
             <Link to="/about-us">About Us</Link>
-            <Link to="/products">Contact Us</Link>
-            <Link to="/application">Services</Link>
+            <Link to="/contact-us">Contact Us</Link>
+            <Link to="/ourteam">Our Team</Link>
           </div>
         </div>
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
             <h2>Social Media</h2>
-            <a href="https://www.instagram.com/">Instagram</a>
-            <a href="https://www.facebook.com/delending">Facebook</a>
-            <a href="https://twitter.com/home">Twitter</a>
+            <a href="https://www.facebook.com/profile.php?id=100093307951705&mibextid=ZbWKwL">Facebook</a>
           </div>
         </div>  
 
@@ -37,13 +35,9 @@ function Footer() {
           <div class="social-icon-link facebook" aria-label="Facebook">
             <a href="https://www.facebook.com/delending"><i class="fab fa-facebook-f"></i></a>
           </div>
-          <div class="social-icon-link instagram" aria-label="Instagram">
-            <a href="https://www.instagram.com/"><i class="fab fa-instagram" /></a>
+          
           </div>
-          </div>
-          <div class="social-icon-link twitter" aria-label="Twitter">
-            <a href="https://www.twitter.com/"><i class="fab fa-twitter" /></a>
-          </div>
+          
         </div>
       </div>
     
