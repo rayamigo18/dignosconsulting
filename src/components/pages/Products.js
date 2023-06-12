@@ -9,7 +9,7 @@ function Products() {
     <h1 className="products">Our Team</h1>
     <div className="products-info">
     
-      <h2>  We are a team of true professionals with specialisations ranging from legal, education, healthcare, business and Information Technology. "Dignos" in spanish means trustworthy and reliable. Guided by these values, we ensure all candidates are provided with the highest standard of service.</h2>
+      <h3>  We are a team of true professionals with specialisations ranging from legal, education, healthcare, business and Information Technology. "Dignos" in spanish means trustworthy and reliable. Guided by these values, we ensure all candidates are provided with the highest standard of service.</h3>
       <div className="cards__container">
         <div className="cards__wrapper">
           <ul className="cards__items">

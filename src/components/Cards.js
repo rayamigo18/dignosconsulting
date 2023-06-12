@@ -6,15 +6,15 @@ import CardItem from "./CardItem";
 function Cards() {
   return (
     <div className="cards">
-      <h2>
+      <h3>
       Australia is a world leader in the provision of high quality education in all disciplines. Australian colleges/universities offer international 
       students with an opportunity to learn and study in a safe and welcoming environment. An Australian education provides international students the 
       chance to develop academically as well as professionallly, whislt instilling invaluable life skills.
-      </h2>
-      <h2>
+      </h3>
+      <h3>
       Dignos Consulting will assist you with your application needs and provide you with the confidence and preparedness required to begin your Australian study adventure.
-      </h2>
-      <h2>We offer the following services: </h2>
+      </h3>
+      <h3>We offer the following services: </h3>
 
       <div className="cards__container">
         <div className="cards__wrapper">

@@ -9,7 +9,7 @@ video {
 .hero-container {
   background: url('/public/images/studyinaustralia.png') center center/cover no-repeat; 
   height: 100vh;
-  width: 1920px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
